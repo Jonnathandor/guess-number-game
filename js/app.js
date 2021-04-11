@@ -62,7 +62,7 @@ function displayUserGuessHistory(){
 //     return message;
 // }
 
-// The two functions above where doing the same thing... more abstraction! :)
+// The two functions above were doing the same thing... more abstraction! :)
 function createFeedback(feedback, element){
     let message = document.createElement(element);
     message.innerText = feedback;
